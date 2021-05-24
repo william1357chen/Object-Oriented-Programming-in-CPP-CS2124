@@ -13,8 +13,8 @@
                 Code</strong></td>
         </tr>
     <tr> 
-      <td width="114" height="40"><p><a href="./Python%20to%20C++/DIfference%20between%20Python%20and%20C++.md">Python to C++</a></p>
-      <p><font size="3"><a href="./Basic%20C++">Basic C++</a></font></p></td>
+      <td width="114" height="40"><p><a href="./Python%20to%20C++/Difference%20between%20Python%20and%20C++.md">Python to C++</a></p>
+      <p><font size="3"><a href="./Basic%20C++/Basic%20Syntax.md">Basic C++</a></font></p></td>
       <td width="264" height="40"><ul>
           <li>Simple program</li>
           <li>Loops</li>
