@@ -1,7 +1,8 @@
+
+
 <!DOCTYPE html>
 <html>
-
-<table border="1" cellspacing="0" cellpadding="5">
+<table cellspacing="0" cellpadding="5">
       <tbody>
         <tr> 
           <td width="114" align="center"><p><strong>TOPICS</strong><br>
@@ -12,8 +13,8 @@
                 Code</strong></td>
         </tr>
     <tr> 
-      <td width="114" height="40"><p><a href="https://github.com/william1357chen/CS2124-OOP/blob/master/Python%20to%20C%2B%2B/DIfference%20between%20Python%20and%20C%2B%2B.md">Python to C++</a></p>
-      <p><font size="3"><a href="https://github.com/william1357chen/CS2124-OOP/tree/master/Basic%20C%2B%2B">Basic C++</a></font></p></td>
+      <td width="114" height="40"><p><a href="./Python%20to%20C++/DIfference%20between%20Python%20and%20C++.md">Python to C++</a></p>
+      <p><font size="3"><a href="./Basic%20C++">Basic C++</a></font></p></td>
       <td width="264" height="40"><ul>
           <li>Simple program</li>
           <li>Loops</li>
@@ -31,7 +32,7 @@
         </ul></td>
     </tr>
     <tr>
-      <td height="41"><font size="3"><a href="https://github.com/william1357chen/CS2124-OOP/blob/master/Classes/Class%20Basics.md">Classes</a></font></td>
+      <td height="41"><font size="3"><a href="./Classes/Class%20Basics.md">Classes</a></font></td>
       <td height="41"><ul>
           <li>Member variables and functions</li>
         <li>Constructors. </li>
@@ -45,8 +46,8 @@
       </ul></td>
     </tr>
     <tr>
-      <td><p><font size="3"><a href="https://github.com/william1357chen/CS2124-OOP/blob/master/Pointers/pointers.md">Pointers</a></font></p>
-      <p><a href="https://github.com/william1357chen/CS2124-OOP/blob/master/Classes/Composition%20and%20Association.md">Composition 
+      <td ><p><font size="3"><a href="./Pointers/pointers.md">Pointers</a></font></p>
+      <p><a href="./Classes/Composition%20and%20Association.md">Composition 
       and Association</a></p></td>
       <td><ul>
           <li>address/location</li>
