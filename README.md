@@ -13,7 +13,7 @@
         </tr>
     <tr> 
       <td width="114" height="40"><p><a href="https://github.com/william1357chen/CS2124-OOP/blob/master/Python%20to%20C%2B%2B/DIfference%20between%20Python%20and%20C%2B%2B.md">Python to C++</a></p>
-      <p><font size="3"><a href="https://github.com/william1357chen/CS2124-OOP/tree/master/Basic%20C%2B%2B">Basic C++</a></font></p></td>
+      <p><font size="3"><a href="./README.md">Basic C++</a></font></p></td>
       <td width="264" height="40"><ul>
           <li>Simple program</li>
           <li>Loops</li>
