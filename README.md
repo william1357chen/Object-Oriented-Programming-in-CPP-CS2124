@@ -1,17 +1,30 @@
-
+# Introduction to Object Oriented Prorgamming in C++
+Welcome! This is the reorganized notes for Intro to Object Oriented Programming in C++ CS-2124 taught by Professor Sterling. Additionally, The first topic was added for introducing the concept of Object Oriented Programming and its main principles.
 
 <!DOCTYPE html>
 <html>
 <table cellspacing="0" cellpadding="5">
       <tbody>
         <tr> 
-          <td width="114" align="center"><p><strong>TOPICS</strong><br>
+          <td width="23%" align="center"><p><strong>TOPICS</strong><br>
               <strong>and NOTES</strong></p></td>
-          <td width="264" align="center"><strong>Key Subtopics<br>
+          <td width="52%" align="center"><strong>Key Subtopics<br>
           </strong></td>
-          <td width="144" align="center"><strong>Sample 
+          <td width="23%" align="center"><strong>Sample 
                 Code</strong></td>
         </tr>
+    <tr> 
+      <td width="114" height="40"><p><a href="./OOP%20Simplified/OOP%20Simplified.md">OOP in a Nutshell</a></p>
+      </td>
+      <td width="264" height="40"><ul>
+          <li>Encapsulation</li>
+          <li>Abstraction</li>
+          <li>Inheritance</li>
+          <li>Polymorphism</li>
+        </ul></td>
+      <td width="144"><ul>
+      </td>
+    </tr>
     <tr> 
       <td width="114" height="40"><p><a href="./Python%20to%20C++/Difference%20between%20Python%20and%20C++.md">Python to C++</a></p>
       <p><font size="3"><a href="./Basic%20C++/Basic%20Syntax.md">Basic C++</a></font></p></td>
