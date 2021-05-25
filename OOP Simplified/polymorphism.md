@@ -60,4 +60,4 @@ If we have a `Car` class, the `Car` class can have three methods all called `dri
 Note: Method/Function overloading can cause trouble if you do not keep straight which parameters you need for which implementation. Using the incorrect arguments **may not** cause an error if it matches that of another form of the method, which can cause issues that can hard to detect. 
 
 ## Overview
-Overall, polymorphism can be useful sinceit allows methods with the same name to take on many different forms. When utilizing polymorphism, be sure that you are calling the correct form of the method/function.
+Overall, polymorphism can be useful since it allows methods with the same name to take on many different forms. When utilizing polymorphism, be sure that you are calling the correct form of the method/function.
