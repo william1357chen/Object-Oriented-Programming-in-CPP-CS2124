@@ -21,8 +21,6 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
           <li>Inheritance</li>
           <li>Polymorphism</li>
         </ul></td>
-      <td width="144"><ul>
-      </td>
     </tr>
     </tbody>
 </table>
