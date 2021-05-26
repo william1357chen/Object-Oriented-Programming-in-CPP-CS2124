@@ -257,6 +257,8 @@ void foo() {
 ```
 Doesn't matter how it happens, memory leaks can be a big problem for your program.
 
+## Add Pointer Arithmetic
+
 ## Pointer Topics not yet discussed
 * pointer to pointer
 * copy control

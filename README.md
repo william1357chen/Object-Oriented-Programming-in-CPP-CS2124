@@ -85,7 +85,7 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
         <li>new/delete</li>
       </ul></td>
       <td><ul>
-          <li>Intro to addresses andpointers</li>
+          <li>Intro to addresses and pointers</li>
       </ul></td>
     </tr>
     <!--
