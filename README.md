@@ -4,45 +4,57 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
 ## Object Oriented Programming in a Nutshell
 <!DOCTYPE html>
 <html>
-<table align="center" cellspacing="0" cellpadding="5">
-      <tbody>
-        <tr> 
-          <td width="114" align="center"><p><strong>TOPICS</strong><br>
-              <strong>and NOTES</strong></p></td>
-          <td width="114" align="center"><strong>Key Subtopics<br>
-          </strong></td>
-        </tr>
-    <tr> 
-      <td width="114" height="40"><p><a href="./OOP%20Simplified/OOP%20Simplified.md">What is OOP</a></p>
+<table width="50%" align="center" cellspacing="0" cellpadding="5" border="1">
+  <tbody>
+    <tr>
+      <td align="center">
+        <p><strong>TOPICS</strong></p>
       </td>
-      <td width="264" height="40"><ul>
+      <td align="center"><strong>Key Subtopics<br></strong></td>
+    </tr>
+    <tr>
+      <td>
+        <p><a href="./OOP%20Simplified/OOP%20Simplified.md">What is OOP</a></p>
+      </td>
+      <td>
+        <ul>
           <li>Encapsulation</li>
           <li>Abstraction</li>
           <li>Inheritance</li>
           <li>Polymorphism</li>
-        </ul></td>
+        </ul>
+      </td>
     </tr>
-    </tbody>
+  </tbody>
 </table>
 </html>
 
 ## CS 2124 Notes
-
 <html>
-<table cellspacing="0" cellpadding="5">
-      <tbody>
-        <tr> 
-          <td width="23%" align="center"><p><strong>TOPICS</strong><br>
-              <strong>and NOTES</strong></p></td>
-          <td width="52%" align="center"><strong>Key Subtopics<br>
-          </strong></td>
-          <td width="23%" align="center"><strong>Sample 
-                Code</strong></td>
-        </tr>
-    <tr> 
-      <td width="114" height="40"><p><a href="./Python%20to%20C++/Difference%20between%20Python%20and%20C++.md">Python to C++</a></p>
-      <p><font size="3"><a href="./Basic%20C++/Basic%20Syntax.md">Basic C++</a></font></p></td>
-      <td width="264" height="40"><ul>
+<table width="100%" cellspacing="0" cellpadding="5" border="1">
+  <tbody>
+    <tr>
+      <td align="center">
+        <p><strong>TOPICS</strong><br>
+          <strong>and NOTES</strong>
+        </p>
+      </td>
+      <td align="center"><strong>Key Subtopics<br>
+        </strong></td>
+      <td align="center"><strong>Sample
+          Code</strong></td>
+    </tr>
+    <tr>
+      <td>
+        <p>
+          <a href="./Python%20to%20C++/Difference%20between%20Python%20and%20C++.md">Python to C++</a>
+        </p>
+        <p>
+          <a href="./Basic%20C++/Basic%20Syntax.md">Basic C++</a>
+        </p>
+      </td>
+      <td>
+        <ul>
           <li>Simple program</li>
           <li>Loops</li>
           <li>Conditions</li>
@@ -50,43 +62,61 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
           <li>Vectors</li>
           <li>Structs</li>
           <li>Functions / parameter passing</li>
-        </ul></td>
-      <td width="144"><ul>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>Reading in a file</li>
           <li>How <em>NOT</em> to read a file</li>
           <li>Reading a file into a vector</li>
           <li>Vector of objects that contain vectors </li>
-        </ul></td>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td height="41"><font size="3"><a href="./Classes/Class%20Basics.md">Classes</a></font></td>
-      <td height="41"><ul>
+      <td>
+        <a href="./Classes/Class%20Basics.md">Classes</a>
+      </td>
+      <td>
+        <ul>
           <li>Member variables and functions</li>
-        <li>Constructors. </li>
-        <li>Const functions. </li>
-        <li>Separating the class definition from the member function definitions.</li>
-      </ul></td>
-      <td><ul>
+          <li>Constructors. </li>
+          <li>Const functions. </li>
+          <li>Separating the class definition from the member function definitions.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>A simple Date Class</li>
-        <li>Composition and association</li>
-        <li>Dynamic array of pointers to objects.</li>
-      </ul></td>
+          <li>Composition and association</li>
+          <li>Dynamic array of pointers to objects.</li>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td ><p><font size="3"><a href="./Pointers/pointers.md">Pointers</a></font></p>
-      <p><a href="./Classes/Composition%20and%20Association.md">Composition 
-      and Association</a></p></td>
-      <td><ul>
+      <td>
+        <p>
+          <a href="./Pointers/pointers.md">Pointers</a>
+        </p>
+        <p>
+          <a href="./Classes/Composition%20and%20Association.md">Composition and Association</a>
+        </p>
+      </td>
+      <td>
+        <ul>
           <li>address/location</li>
-        <li>pointer variables</li>
-        <li>address-of operator</li>
-        <li>dereferencing operator</li>
-        <li>pointer arithmetic</li>
-        <li>new/delete</li>
-      </ul></td>
-      <td><ul>
+          <li>pointer variables</li>
+          <li>address-of operator</li>
+          <li>dereferencing operator</li>
+          <li>pointer arithmetic</li>
+          <li>new/delete</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>Intro to addresses and pointers</li>
-      </ul></td>
+        </ul>
+      </td>
     </tr>
     <!--
     <tr> 
