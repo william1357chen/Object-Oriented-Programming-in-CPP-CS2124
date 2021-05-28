@@ -7,10 +7,10 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
 <table width="80%" align="center" cellspacing="0" cellpadding="5" border="1">
   <tbody>
     <tr>
-      <td align="center">
+      <td align="center" width="150">
         <p><strong>TOPICS</strong></p>
       </td>
-      <td align="center"><strong>Key Subtopics<br></strong></td>
+      <td align="center" width="250"><strong>Key Subtopics<br></strong></td>
     </tr>
     <tr>
       <td>
