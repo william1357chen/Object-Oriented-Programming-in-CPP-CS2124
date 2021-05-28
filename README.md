@@ -4,7 +4,7 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
 ## Object Oriented Programming in a Nutshell
 <!DOCTYPE html>
 <html>
-<table width="50%" align="center" cellspacing="0" cellpadding="5" border="1">
+<table width="80%" align="center" cellspacing="0" cellpadding="5" border="1">
   <tbody>
     <tr>
       <td align="center">
