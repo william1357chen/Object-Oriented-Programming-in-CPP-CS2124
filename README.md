@@ -4,33 +4,36 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
 ## Object Oriented Programming in a Nutshell
 <!DOCTYPE html>
 <html>
-<table align="center" cellspacing="0" cellpadding="5" border="1">
+<table width="50%" align="center" cellspacing="0" cellpadding="5" border="1">
   <tbody>
     <tr>
-      <td align="center" width="150">
-        <p><strong>TOPICS</strong></p>
+      <td align="center">
+        <p>
+          <strong>TOPICS</strong>
+        </p>
       </td>
-      <td align="center" width="250"><strong>Key Subtopics<br></strong></td>
+      <td align="center">
+        <strong>Key Subtopics</strong>
+      </td>
     </tr>
     <tr>
       <td>
-        <p><a href="./OOP%20Simplified/OOP%20Simplified.md">What is OOP</a></p>
+        <p>
+          <a href="./OOP%20Simplified/OOP%20Simplified.md">What is OOP</a>
+        </p>
       </td>
       <td>
         <ul>
-          <li>Encapsulation</li>
-          <li>Abstraction</li>
-          <li>Inheritance</li>
-          <li>Polymorphism</li>
+          <li><a href="./OOP%20Simplified/encapsulation.md">Encapsulation</a></li>
+          <li><a href="./OOP%20Simplified/abstraction.md">Abstraction</a></li>
+          <li><a href="./OOP%20Simplified/inheritance.md">Inheritance</a></li>
+          <li><a href="./OOP%20Simplified/polymorphism.md">Polymorphism</a></li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
-</html>
-
-## CS 2124 Notes
-<html>
+<br>
 <table width="100%" cellspacing="0" cellpadding="5" border="1">
   <tbody>
     <tr>
@@ -49,7 +52,7 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
     <tr>
       <td>
         <p>
-          <a href="./Python%20to%20C++/Difference%20between%20Python%20and%20C++.md">Python to C++</a>
+          <a href="./Python%20to%20C%2B%2B/DIfference%20between%20Python%20and%20C%2B%2B.md">Python to C++</a>
         </p>
         <p>
           <a href="./Basic%20C++/Basic%20Syntax.md">Basic C++</a>
@@ -57,13 +60,14 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
       </td>
       <td>
         <ul>
-          <li>Simple program</li>
-          <li>Loops</li>
-          <li>Conditions</li>
-          <li>File I/O</li>
-          <li>Vectors</li>
-          <li>Structs</li>
-          <li>Functions / parameter passing</li>
+          <li><a href="./Basic%20C++/Basic%20Syntax.md#hello-world">Simple program</a></li>
+          <li><a href="./Basic%20C++/Basic%20Syntax.md#loops">Loops</a></li>
+          <li><a href="./Basic%20C++/Basic%20Syntax.md#conditions">Conditions</a></li>
+          <li><a href="./Basic%20C%2B%2B/File%20IO/File%20IO.md">File I/O</a></li>
+          <li><a href="./Basic%20C%2B%2B/Vectors/Vectors.md">Vectors</a></li>
+          <li><a href="./Basic%20C%2B%2B/Strings.md">Strings</a></li>
+          <li><a href="./Basic%20C%2B%2B/Structs/Structs.md">Structs</a></li>
+          <li><a href="./Basic%20C%2B%2B/Functions/Functions.md">Functions / parameters passing</a></li>
         </ul>
       </td>
       <td>
@@ -81,10 +85,12 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
       </td>
       <td>
         <ul>
-          <li>Member variables and functions</li>
-          <li>Constructors. </li>
-          <li>Const functions. </li>
-          <li>Separating the class definition from the member function definitions.</li>
+          <li><a
+              href="./Classes/Class%20Basics.md#providing-a-public-interface-member-methods-to-make-a-class-interactive">Member
+              variables and functions</a></li>
+          <li><a href="./Classes/Class%20Basics.md#constructors">Constructors</a></li>
+          <li><a href="./Classes/Class%20Basics.md#const-methods">Const functions</a></li>
+          <li><a href="./Classes/Class%20Basics.md#vector-of-objects">Vector of Objects</a></li>
         </ul>
       </td>
       <td>
@@ -106,12 +112,12 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
       </td>
       <td>
         <ul>
-          <li>address/location</li>
-          <li>pointer variables</li>
-          <li>address-of operator</li>
-          <li>dereferencing operator</li>
+          <li><a href="./Pointers/pointers.md#basics-of-address-and-pointer-variables">address/location</a></li>
+          <li><a href="./Pointers/pointers.md#basics-of-address-and-pointer-variables">pointer variables</a></li>
+          <li><a href="./Pointers/pointers.md#pointers-and-objects">pointers and objects</a></li>
           <li>pointer arithmetic</li>
-          <li>new/delete</li>
+          <li><a href="./Pointers/pointers.md#dynamic-memory-the-heap">Dynamic Memory / Heap</a></li>
+          <li><a href="./Pointers/pointers.md#dynamic-memory-the-heap">new/delete</a></li>
         </ul>
       </td>
       <td>
@@ -120,17 +126,17 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
         </ul>
       </td>
     </tr>
-    <tr> 
+    <tr>
       <td>
-        <a href="../LectureNotes/06.Big3.html">Copy Control </a><br>
-        <a href="../LectureNotes/06b.Vector.html">Implementing the Vector</a>
+        <a href="./Classes/Copy%20Control.md">Copy Control </a><br>
+        <a href="./Classes/Implementing%20the%20Vector.md">Implementing the Vector</a>
       </td>
       <td>
         <ul>
-          <li>Destructor</li>
-          <li>copy constructor</li>
-          <li>assignment operator</li>
-        </ul>      
+          <li><a href="./Classes/Copy%20Control.md#destructor">Destructor</a></li>
+          <li><a href="./Classes/Copy%20Control.md#copy-constructor">Copy Constructor</a></li>
+          <li><a href="./Classes/Copy%20Control.md#assignment-operator">Assignment Operator</a></li>
+        </ul>
       </td>
       <td>
         <ul>
@@ -141,10 +147,18 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
     </tr>
     <tr>
       <td>
-        <a href="../LectureNotes/10.SeparateCompilation.html">Separate Compilation<a><br>
-        <a href="../LectureNotes/10.SeparateCompilationNamespaces.html">Namespaces</a><br>
-        <a href="../LectureNotes/04.IncludeGuard.html">Include Guards</a><br>
-        <a href="../LectureNotes/03b.ForwardDeclarations.html">Cyclic Association</a>
+        <p>
+          <a href="./Separate%20Compilation/Separate%20Compilation.md">Separate Compilation<a>
+        </p>
+        <p>
+          <a href="./Separate%20Compilation/Namespaces.md">Namespaces</a>
+        </p>
+        <p>
+          <a href="./Separate%20Compilation/Include%20Guards.md">Include Guards</a>
+        </p>
+        <p>
+          <a href="./Separate%20Compilation/Cyclic%20Association.md">Cyclic Association</a>
+        </p>
       </td>
       <td>
         <ul>
@@ -160,7 +174,7 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
     </tr>
     <tr>
       <td>
-        <a href="../LectureNotes/05.OverloadingOperators.html">Operator overloading</a>
+        <a href="./Operator%20Overloading/Operator%20Overloading.md">Operator overloading</a>
       </td>
       <td>
         <ul>
@@ -182,7 +196,7 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
     <tr>
       <td>
         <p>
-          <a href="../LectureNotes/04.Inheritance.html">Inheritance</a>
+          <a href="./Classes/Inheritance.md">Inheritance</a>
         </p>
       </td>
       <td>
@@ -204,9 +218,9 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
         </ul>
       </td>
     </tr>
-    <tr> 
+    <tr>
       <td>
-        <a href="../LectureNotes/LinkedList.html">Linked Lists</a>
+        <a href="./Linked%20Lists/Linked%20Lists.md">Linked Lists</a>
       </td>
       <td>
         <ul>
@@ -219,9 +233,9 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
         </ul>
       </td>
     </tr>
-    <tr> 
+    <tr>
       <td>
-        <a href="../LectureNotes/Recursion.htm">Recursion</a>
+        <a href="./Recursion/Recursion.md">Recursion</a>
       </td>
       <td>
         <ul>
@@ -237,9 +251,9 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
         </ul>
       </td>
     </tr>
-    <tr> 
+    <tr>
       <td>
-        <a href="../LectureNotes/STL.html">STL - Standard Template Library</a>
+        <a href="./STL/STL%20-%20Standard%20Template%20Library.md">STL - Standard Template Library</a>
       </td>
       <td>
         <ul>
@@ -251,12 +265,11 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
       <td>
         <ul>
           <li>Some examples using the STL vector and list.</li>
-        </ul
-          <td>
+        </ul <td>
     </tr>
     <tr>
       <td>
-        <a href="../LectureNotes/Exceptions-assertions.html">Exceptions and Assertions</a>
+        <a href="./Exception/Exceptions%20and%20Assertions.md">Exceptions and Assertions</a>
       </td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
