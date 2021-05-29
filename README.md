@@ -34,6 +34,7 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
   </tbody>
 </table>
 <br>
+## CS 2124 Notes 
 <table width="100%" cellspacing="0" cellpadding="5" border="1">
   <tbody>
     <tr>
