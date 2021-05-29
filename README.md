@@ -272,16 +272,16 @@ ___
 <table align="center" width="70%" cellspacing="0" cellpadding="3" border="1">
   <tbody>
     <tr>
-      <td>
+      <td width="100">
         <a href="./recitations/rec01/rec01.md">rec01</a>
       </td>
-      <td>
+      <td width="100">
         <a href="./recitations/rec02/rec02.md">rec02</a>
       </td>
-      <td>
+      <td width="100">
         <a href="./recitations/rec03/rec03.md">rec03</a>
       </td>
-      <td>
+      <td width="100">
         <a href="./recitations/rec04/rec04.md">rec04</a>
       </td>
     </tr>
