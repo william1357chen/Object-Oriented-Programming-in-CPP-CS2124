@@ -338,16 +338,16 @@ ___
 <table align="center" width="100%" cellspacing="0" cellpadding="3" border="1">
   <tbody>
     <tr>
-      <td>
+      <td width="150">
         <a href="./homeworks/hw01/hw01.md">hw01: Basics</a>
       </td>
-      <td>
+      <td width="150">
         <a href="./homeworks/hw02/hw02.md">hw02: Structs, Files, Functions</a>
       </td>
-      <td>
+      <td width="150">
         <a href="./homeworks/hw03/hw03.md">hw03: Classes</a>
       </td>
-      <td>
+      <td width="150">
         <a href="./homeworks/hw04/hw04.md">hw04: Pointer Basics</a>
       </td>
     </tr>
