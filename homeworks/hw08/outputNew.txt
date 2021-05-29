@@ -1,0 +1,25 @@
+p1: 17
+p2: x + 2
+p3: -1x + 5
+p4: 5x^4 + 4x^3 + 3x^2 + 2x + 1
+has_a_zero: 4x^3 + x + 7
+p2 + p3: 7
+p2 + p4: 5x^4 + 4x^3 + 3x^2 + 3x + 3
+p4 + p2: 5x^4 + 4x^3 + 3x^2 + 3x + 3
+Polynomial p5(p4);
+p5 += p3;
+p4: 5x^4 + 4x^3 + 3x^2 + 2x + 1
+p5: 5x^4 + 4x^3 + 3x^2 + x + 6
+Calling doNothing(p5)
+p5: 5x^4 + 4x^3 + 3x^2 + x + 6
+p6: 0
+(p4 == p6) is false
+p6: 5x^4 + 4x^3 + 3x^2 + 2x + 1
+(p4 == p6) is true
+Evaluating p1 at 5 yields: 17
+Evaluating p2 at 5 yields: 7
+p7: 3x^2 + 2x + 1
+Evaluating p7 at 5 yields: 86
+(p1 == p2) is false
+(p1 != p2) is true
+((p8 + p9) == p10) is true
