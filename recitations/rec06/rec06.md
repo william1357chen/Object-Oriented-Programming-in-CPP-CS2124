@@ -23,3 +23,6 @@ Some might ask, "Why are we using a *dynamic array* of Entry pointers for our Di
 Note that the Directory is *responsible* for both the Entries and the dynamic array itself.
 
 You should *think* about how using a vector of pointers would change your code.
+
+### Additional resources for assignment
+* [rec06-origV2.cpp](./rec06-origV2.cpp)

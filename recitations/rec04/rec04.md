@@ -756,3 +756,6 @@ Keep using F11 to see execution transfer.
 Especially note the "this" pointer!
 
 **Finally, reminder, make any changes to keep this method "safe".**
+
+### Additional resources for assignment
+* [Rec04 Additional Info for Xcode.pdf](./Rec04%20Additional%20Info%20for%20Xcode.pdf)

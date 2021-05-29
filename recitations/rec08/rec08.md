@@ -30,3 +30,7 @@
 ## If time allows in lab:
 * Use separate compilation, writing the files Rational.h and Rational.cpp, satisfying the above requirements.
 * Place the class in the CS2124 namespace.
+
+### Additional resources for assignment
+* [testRational.cpp](./testRational.cpp)
+* [gcd.cpp](./gcd.cpp)

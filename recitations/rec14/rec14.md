@@ -69,3 +69,6 @@ Remember: 1) you are writing a recursive function. We are not interested in seei
     cout << 'c'; 
     }
     ```
+
+### Additional resources for assignment
+* [tree.cpp](./tree.cpp)

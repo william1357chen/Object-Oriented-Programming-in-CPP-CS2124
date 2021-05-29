@@ -41,5 +41,5 @@ Since you are just starting out with C++ and with this course, I thought it migh
 * Ideally [writing functions](../../Basic%20C%2B%2B/Functions/Functions.md). If you have covered this, then certainly break the problem up into appropriate functions. However, if you haven't gotten to that in lecture, as certainly happens in the fall semester, don't do it.
 
 ### Additional resources for assignment
-* [Recitation 1 notes on input filesV2.pdf](./Recitation)
-* jabberwocky 
+* [Recitation 1 notes on input filesV2.pdf](./Recitation%201%20notes%20on%20input%20filesV2.pdf)
+* [jabberwocky](./jabberwocky)

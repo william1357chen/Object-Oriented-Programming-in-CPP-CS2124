@@ -144,3 +144,7 @@
     * Finally we need to be able to loop over the `map`. Using the ranged for, it is very easy. Each item in the map is something called a `pair`. A `pair` has two fields `first` and `second`. In a `map`, the field `first` for each entry is the "key" (the word) and the field `second` is the "value" (the vector of positions). To keep your life simple, you may use the keyword `auto` to specify the type for the ranged-for.
     * For each item in the vector, first print out the wordand then print out all of the positions. It would look best to do this all on one line for each word.
     * Again, notice how quickly this runs and that the words appear in sorted order. And it was a lot easier to write than what we did in class!
+
+### Additional resources for assignment
+* [pooh-nopunc.txt](./pooh-nopunc.txt)
+* [rec13_test.cpp](./rec13_test.cpp) 

@@ -125,3 +125,8 @@ We now have a fairly useful linked list class. However there are still a few thi
 * We have not yet experimented with the <algorithm> library here. Again if you are familiar with any of the functions there, how well does our code work with them?
 ## Attached
 We are attaching some test code and the associated output to help you get started.
+### Additional resources for assignment
+* [TwoSentinels.jpg](./TwoSentinels.jpg)
+* [rec12-test.cpp](./rec12-test.cpp) 
+* [output](./output.txt) 
+* [NoSentinels.jpeg](./NoSentinels.jpeg)

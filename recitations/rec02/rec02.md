@@ -75,7 +75,10 @@ In addition to the functions directly called by main, it a couple of other funct
 * A function to find the location of a formula object that matches the number of hydrogene and carbons for a new entry. It will have to return a suitable value if there is no such formala entry in the vector yet. This function would obviously be called by the one in the previous bullet.
 We want to track all of the names of the formulae. It would not be very useful if we were to build up a long string of all the names. Instead what makes sense? We want a *collection* of the all of the names for each formula, not a single string.
 
-# Submit
+##  Submit
 * Reminder, as always for lab, whether or not you have been "checked off" during the recitation, submit your code to NYU Classes.
 * For this lab, your submission will be a single source file, `rec02.cpp`, on NYU Classes. If you do not, your grade may be penalized.
 * Do not submit any other files, such as those generated for your development environment (IDE).
+
+### Additional resources for assignment
+* [Basic SortingPython.pdf](./Basic%20SortingPython.pdf)

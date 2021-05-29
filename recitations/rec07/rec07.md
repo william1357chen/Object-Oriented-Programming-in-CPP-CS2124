@@ -88,3 +88,7 @@ The program should print an appropriate error message and then continue, process
 
 ## Third Part
 If you have even more time (ok, not too likely), write the code for the [if time] items.
+
+### Additional resources for assignment
+* [output-for-required](./output-for-required.txt)
+* [rec07.cpp](./rec07.cpp)

@@ -264,3 +264,69 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
   </tbody>
 </table>
 </html>
+
+___
+
+## Recitation Documents
+<html>
+<table align="center" width="70%" cellspacing="0" cellpadding="3" border="1">
+  <tbody>
+    <tr>
+      <td>
+        <a href="./recitations/rec01/rec01.md">rec01</a>
+      </td>
+      <td>
+        <a href="./recitations/rec02/rec02.md">rec02</a>
+      </td>
+      <td>
+        <a href="./recitations/rec03/rec03.md">rec03</a>
+      </td>
+      <td>
+        <a href="./recitations/rec04/rec04.md">rec04</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="./recitations/rec05/rec05.md">rec05</a>
+      </td>
+      <td>
+        <a href="./recitations/rec06/rec06.md">rec06</a>
+      </td>
+      <td>
+        <a href="./recitations/rec07/rec07.md">rec07</a>
+      </td>
+      <td>
+        <a href="./recitations/rec08/rec08.md">rec08</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="./recitations/rec09/rec09.md">rec09</a>
+      </td>
+      <td>
+        <a href="./recitations/rec10/rec10.md">rec10</a>
+      </td>
+      <td>
+        <a href="./recitations/rec11/rec11.md">rec11</a>
+      </td>
+      <td>
+        <a href="./recitations/rec12/rec12.md">rec12</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="./recitations/rec13/rec13.md">rec13</a>
+      </td>
+      <td>
+        <a href="./recitations/rec14/rec14.md">rec14</a>
+      </td>
+      <td>
+        &nbsp;
+      </td>
+      <td>
+        &nbsp;
+      </td>
+    </tr>
+  </tbody>
+</table>
+</html>

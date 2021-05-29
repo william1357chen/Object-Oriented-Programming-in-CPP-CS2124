@@ -248,3 +248,6 @@ Deleting Ringo
 The modeler / programmer who wrote main would need to do more thorough testing by writing more code for more classes and more weeks, of course.
 
 You write the classes needed for this code to work as it should.
+
+### Additional resources for assignment
+* [rec05-start.cpp](./rec05-start.cpp)
