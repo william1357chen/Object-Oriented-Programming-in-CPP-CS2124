@@ -1,0 +1,11 @@
+Account moe 6
+Deposit 6 10
+Withdraw 6 100
+
+Account larry   28
+Withdraw 6 100
+Deposit 6 10
+Deposit 6 10
+Withdraw 6 5
+
+Account curly   42

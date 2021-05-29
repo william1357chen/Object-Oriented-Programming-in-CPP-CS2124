@@ -1,0 +1,149 @@
+------Task One------
+Fill empty list with push_back: i*i for i from 0 to 9
+myList.push_back(0);
+size: 1, front: 0, back(): 0, list: 0 
+myList.push_back(1);
+size: 2, front: 0, back(): 1, list: 0 1 
+myList.push_back(4);
+size: 3, front: 0, back(): 4, list: 0 1 4 
+myList.push_back(9);
+size: 4, front: 0, back(): 9, list: 0 1 4 9 
+myList.push_back(16);
+size: 5, front: 0, back(): 16, list: 0 1 4 9 16 
+myList.push_back(25);
+size: 6, front: 0, back(): 25, list: 0 1 4 9 16 25 
+myList.push_back(36);
+size: 7, front: 0, back(): 36, list: 0 1 4 9 16 25 36 
+myList.push_back(49);
+size: 8, front: 0, back(): 49, list: 0 1 4 9 16 25 36 49 
+myList.push_back(64);
+size: 9, front: 0, back(): 64, list: 0 1 4 9 16 25 36 49 64 
+myList.push_back(81);
+size: 10, front: 0, back(): 81, list: 0 1 4 9 16 25 36 49 64 81 
+===================
+Modify the first and last items, and display the results
+size: 10, front: 17, back(): 42, list: 17 1 4 9 16 25 36 49 64 42 
+===================
+Remove the items with pop_back
+size: 10, front: 17, back(): 42, list: 17 1 4 9 16 25 36 49 64 42 
+size: 9, front: 17, back(): 64, list: 17 1 4 9 16 25 36 49 64 
+size: 8, front: 17, back(): 49, list: 17 1 4 9 16 25 36 49 
+size: 7, front: 17, back(): 36, list: 17 1 4 9 16 25 36 
+size: 6, front: 17, back(): 25, list: 17 1 4 9 16 25 
+size: 5, front: 17, back(): 16, list: 17 1 4 9 16 
+size: 4, front: 17, back(): 9, list: 17 1 4 9 
+size: 3, front: 17, back(): 4, list: 17 1 4 
+size: 2, front: 17, back(): 1, list: 17 1 
+size: 1, front: 17, back(): 17, list: 17 
+===================
+
+------Task Two------
+Fill empty list with push_front: i*i for i from 0 to 9
+myList.push_front(0);
+size: 1, front: 0, back(): 0, list: 0 
+myList.push_front(1);
+size: 2, front: 1, back(): 0, list: 1 0 
+myList.push_front(4);
+size: 3, front: 4, back(): 0, list: 4 1 0 
+myList.push_front(9);
+size: 4, front: 9, back(): 0, list: 9 4 1 0 
+myList.push_front(16);
+size: 5, front: 16, back(): 0, list: 16 9 4 1 0 
+myList.push_front(25);
+size: 6, front: 25, back(): 0, list: 25 16 9 4 1 0 
+myList.push_front(36);
+size: 7, front: 36, back(): 0, list: 36 25 16 9 4 1 0 
+myList.push_front(49);
+size: 8, front: 49, back(): 0, list: 49 36 25 16 9 4 1 0 
+myList.push_front(64);
+size: 9, front: 64, back(): 0, list: 64 49 36 25 16 9 4 1 0 
+myList.push_front(81);
+size: 10, front: 81, back(): 0, list: 81 64 49 36 25 16 9 4 1 0 
+===================
+Remove the items with pop_front
+size: 10, front: 81, back(): 0, list: 81 64 49 36 25 16 9 4 1 0 
+size: 9, front: 64, back(): 0, list: 64 49 36 25 16 9 4 1 0 
+size: 8, front: 49, back(): 0, list: 49 36 25 16 9 4 1 0 
+size: 7, front: 36, back(): 0, list: 36 25 16 9 4 1 0 
+size: 6, front: 25, back(): 0, list: 25 16 9 4 1 0 
+size: 5, front: 16, back(): 0, list: 16 9 4 1 0 
+size: 4, front: 9, back(): 0, list: 9 4 1 0 
+size: 3, front: 4, back(): 0, list: 4 1 0 
+size: 2, front: 1, back(): 0, list: 1 0 
+size: 1, front: 0, back(): 0, list: 0 
+size: 0, front: 0, back(): 0, list: 
+===================
+
+------Task Three------
+Fill empty list with push_back: i*i for i from 0 to 9
+size: 10, front: 0, back(): 81, list: 0 1 4 9 16 25 36 49 64 81 
+Now clear
+Size: 0, list: 
+===================
+
+------Task Four------
+Fill empty list with push_back: i*i for i from 0 to 9
+Display elements with op[]
+0 1 4 9 16 25 36 49 64 81 
+Add one to each element with op[]
+And print it out again with op[]
+1 2 5 10 17 26 37 50 65 82 
+Now calling a function, printListSlow, to do the same thing
+1 2 5 10 17 26 37 50 65 82 
+Finally, for this task, using the index operator to modify
+the data in the third item in the list
+and then using printListSlow to display it again
+1 2 42 10 17 26 37 50 65 82 
+
+------Task Five------
+Fill empty list with push_back: i*i for i from 0 to 9
+size: 10, front: 0, back(): 81, list: 0 1 4 9 16 25 36 49 64 81 
+Now display the elements in a ranged for
+0 1 4 9 16 25 36 49 64 81 
+And again using the iterator type directly:
+0 1 4 9 16 25 36 49 64 81 
+WOW!!! (I thought it was cool.)
+
+------Task Six------
+Filling an empty list with insert at end: i*i for i from 0 to 9
+size: 10, front: 0, back(): 81, list: 0 1 4 9 16 25 36 49 64 81 
+Filling an empty list with insert at begin(): i*i for i from 0 to 9
+size: 10, front: 81, back(): 0, list: 81 64 49 36 25 16 9 4 1 0 
+===================
+
+------Task Seven------
+Filling an empty list with insert at end: i*i for i from 0 to 9
+Erasing the elements in the list, starting from the beginning
+size: 10, front: 0, back(): 81, list: 0 1 4 9 16 25 36 49 64 81 
+size: 9, front: 1, back(): 81, list: 1 4 9 16 25 36 49 64 81 
+size: 8, front: 4, back(): 81, list: 4 9 16 25 36 49 64 81 
+size: 7, front: 9, back(): 81, list: 9 16 25 36 49 64 81 
+size: 6, front: 16, back(): 81, list: 16 25 36 49 64 81 
+size: 5, front: 25, back(): 81, list: 25 36 49 64 81 
+size: 4, front: 36, back(): 81, list: 36 49 64 81 
+size: 3, front: 49, back(): 81, list: 49 64 81 
+size: 2, front: 64, back(): 81, list: 64 81 
+size: 1, front: 81, back(): 81, list: 81 
+===================
+
+------Task Eight------
+Copy control
+Filling an empty list with insert at end: i*i for i from 0 to 9
+size: 10, front: 0, back(): 81, list: 0 1 4 9 16 25 36 49 64 81 
+Calling doNothing(myList)
+List(List)
+In doNothing
+0 1 4 9 16 25 36 49 64 81 
+Leaving doNothing
+~List()
+Back from doNothing(myList)
+size: 10, front: 0, back(): 81, list: 0 1 4 9 16 25 36 49 64 81 
+Filling listTwo with insert at begin: i*i for i from 0 to 9
+size: 10, front: 81, back(): 0, list: 81 64 49 36 25 16 9 4 1 0 
+listTwo = myList
+List::op=(List)
+myList: size: 10, front: 0, back(): 81, list: 0 1 4 9 16 25 36 49 64 81 
+listTwo: size: 10, front: 0, back(): 81, list: 0 1 4 9 16 25 36 49 64 81 
+===================
+~List()
+~List()

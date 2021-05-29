@@ -1,0 +1,3 @@
+moe     6
+larry   28
+curly   42

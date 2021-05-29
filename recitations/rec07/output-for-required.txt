@@ -1,0 +1,56 @@
+No courses or students added yet
+Registrar's Report
+Courses: 
+Students: 
+
+AddCourse CS101.001
+Registrar's Report
+Courses: 
+CS101.001: No Students
+Students: 
+
+AddStudent FritzTheCat
+Registrar's Report
+Courses: 
+CS101.001: No Students
+Students: 
+FritzTheCat: No Courses
+
+AddCourse CS102.001
+Registrar's Report
+Courses: 
+CS101.001: No Students
+CS102.001: No Students
+Students: 
+FritzTheCat: No Courses
+
+EnrollStudentInCourse FritzTheCat CS102.001
+EnrollStudentInCourse FritzTheCat CS101.001
+Registrar's Report
+Courses: 
+CS101.001: FritzTheCat
+CS102.001: FritzTheCat
+Students: 
+FritzTheCat: CS102.001 CS101.001
+
+EnrollStudentInCourse Bullwinkle CS101.001
+Should fail, i.e. do nothing, since Bullwinkle is not a student.
+Registrar's Report
+Courses: 
+CS101.001: FritzTheCat
+CS102.001: FritzTheCat
+Students: 
+FritzTheCat: CS102.001 CS101.001
+
+CancelCourse CS102.001
+Registrar's Report
+Courses: 
+CS101.001: FritzTheCat
+Students: 
+FritzTheCat: CS101.001
+
+Purge for start of next semester
+Registrar's Report
+Courses: 
+Students: 
+

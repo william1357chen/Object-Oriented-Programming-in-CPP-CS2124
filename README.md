@@ -4,7 +4,7 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
 ## Object Oriented Programming in a Nutshell
 <!DOCTYPE html>
 <html>
-<table width="80%" align="center" cellspacing="0" cellpadding="5" border="1">
+<table align="center" cellspacing="0" cellpadding="5" border="1">
   <tbody>
     <tr>
       <td align="center" width="150">
@@ -35,14 +35,16 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
   <tbody>
     <tr>
       <td align="center">
-        <p><strong>TOPICS</strong><br>
+        <p>
+          <strong>TOPICS</strong><br>
           <strong>and NOTES</strong>
         </p>
       </td>
-      <td align="center"><strong>Key Subtopics<br>
-        </strong></td>
-      <td align="center"><strong>Sample
-          Code</strong></td>
+      <td align="center">
+        <strong>Key Subtopics<br></strong>
+      </td>
+      <td align="center"><strong>SampleCode</strong>
+      </td>
     </tr>
     <tr>
       <td>
@@ -118,22 +120,24 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
         </ul>
       </td>
     </tr>
-    <!--
     <tr> 
       <td>
         <a href="../LectureNotes/06.Big3.html">Copy Control </a><br>
         <a href="../LectureNotes/06b.Vector.html">Implementing the Vector</a>
       </td>
-      <td><ul>
-        <li>Destructor
-          </li>
-        <li>copy constructor</li>
-        <li>assignment operator</li>
-      </ul>      </td>
-      <td><ul>
+      <td>
+        <ul>
+          <li>Destructor</li>
+          <li>copy constructor</li>
+          <li>assignment operator</li>
+        </ul>      
+      </td>
+      <td>
+        <ul>
           <li>Need for copy constructor.</li>
           <li>Vector class.</li>
-        </ul></td>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>
@@ -142,85 +146,121 @@ Welcome! This is the reorganized notes for Intro to Object Oriented Programming 
         <a href="../LectureNotes/04.IncludeGuard.html">Include Guards</a><br>
         <a href="../LectureNotes/03b.ForwardDeclarations.html">Cyclic Association</a>
       </td>
-      <td><ul>
+      <td>
+        <ul>
           <li>header files and implementation files.</li>
-        <li>include guard: #ifndef, #define and, #endif</li>
-      </ul></td>
-      <td><ul>
+          <li>include guard: #ifndef, #define and, #endif</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>The class Date using separate compilation and a namespace.</li>
-      </ul></td>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td><a href="../LectureNotes/05.OverloadingOperators.html">Operator overloading</a></td>
-      <td><ul>
+      <td>
+        <a href="../LectureNotes/05.OverloadingOperators.html">Operator overloading</a>
+      </td>
+      <td>
+        <ul>
           <li>Why?</li>
-        <li>Operator expressions as function calls.</li>
-        <li> I/O operators</li>
-        <li>Comparison operators.</li>
-        <li>Friends</li>
-        <li>What you can / can't do with operator overloading. <br>
-        </li>
-      </ul></td>
-      <td><ul>
+          <li>Operator expressions as function calls.</li>
+          <li> I/O operators</li>
+          <li>Comparison operators.</li>
+          <li>Friends</li>
+          <li>What you can / can't do with operator overloading. <br>
+          </li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>Overloading operators for the Date class</li>
-        </ul></td>
+        </ul>
+      </td>
     </tr>
     <tr>
-      <td height="63"><p><font size="3"><a href="../LectureNotes/04.Inheritance.html">Inheritance</a></font></p></td>
-      <td height="63"><ul>
+      <td>
+        <p>
+          <a href="../LectureNotes/04.Inheritance.html">Inheritance</a>
+        </p>
+      </td>
+      <td>
+        <ul>
           <li>Simple public inheritance. </li>
-        <li>Protected access. </li>
-        <li>Polymorphism. </li>
-        <li>Virtual mechanism and virtual methods. </li>
-        <li>Pure virtual methods and abstract classes.</li>
-        <li>Multiple Inheritance</li>
-      </ul></td>
-      <td><ul>
+          <li>Protected access. </li>
+          <li>Polymorphism. </li>
+          <li>Virtual mechanism and virtual methods. </li>
+          <li>Pure virtual methods and abstract classes.</li>
+          <li>Multiple Inheritance</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>Basic inheritance</li>
-        <li>Order of constructors and destructors.</li>
-        <li>Polymorphism</li>
-        <li>Abstract Classes</li>
-      </ul></td>
+          <li>Order of constructors and destructors.</li>
+          <li>Polymorphism</li>
+          <li>Abstract Classes</li>
+        </ul>
+      </td>
     </tr>
     <tr> 
-      <td><font size="3"><a href="../LectureNotes/LinkedList.html">Linked 
-        Lists</a></font></td>
-      <td><ul>
-        <li>Implement a toolkit for a singly linked list.</li>
-      </ul></td>
-      <td><ul>
+      <td>
+        <a href="../LectureNotes/LinkedList.html">Linked Lists</a>
+      </td>
+      <td>
+        <ul>
+          <li>Implement a toolkit for a singly linked list.</li>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>Linked List Toolkit</li>
-        </ul></td>
+        </ul>
+      </td>
     </tr>
     <tr> 
-      <td><font size="3"><a href="../LectureNotes/Recursion.htm">Recursion</a></font></td>
-      <td>        <ul>
+      <td>
+        <a href="../LectureNotes/Recursion.htm">Recursion</a>
+      </td>
+      <td>
+        <ul>
           <li>Understanding recursive code</li>
           <li>Writing recursive functions </li>
-        </ul></td>
-      <td><ul>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>Simple examples</li>
           <li>Binary Search</li>
           <li>Linked List toolkit using recursion.</li>
-        </ul></td>
+        </ul>
+      </td>
     </tr>
     <tr> 
-      <td><a href="../LectureNotes/STL.html">STL - Standard Template Library</a></td>
-      <td><ul>
-          <li>Containers (vector and <a href="https://cse.engineering.nyu.edu/jsterling/cs2124/LectureNotes/STLlist.html">list</a>),          </li>
+      <td>
+        <a href="../LectureNotes/STL.html">STL - Standard Template Library</a>
+      </td>
+      <td>
+        <ul>
+          <li>Containers (vector and <a href="https://cse.engineering.nyu.edu/jsterling/cs2124/LectureNotes/STLlist.html">list</a>)</li>
           <li>Iterators</li>
           <li>Generic algorithms</li>
-        </ul></td>
-      <td><ul>
+        </ul>
+      </td>
+      <td>
+        <ul>
           <li>Some examples using the STL vector and list.</li>
-        </ul></td>
+        </ul
+          <td>
     </tr>
     <tr>
-      <td><a href="../LectureNotes/Exceptions-assertions.html">Exceptions and Assertions</a></td>
+      <td>
+        <a href="../LectureNotes/Exceptions-assertions.html">Exceptions and Assertions</a>
+      </td>
       <td>&nbsp;</td>
       <td>&nbsp;</td>
     </tr>
-    -->
   </tbody>
 </table>
 </html>
