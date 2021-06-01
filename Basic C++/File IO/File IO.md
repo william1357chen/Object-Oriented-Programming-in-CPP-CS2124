@@ -62,3 +62,14 @@ If we finished reading till the end of a file and want to go back to the start a
 ifs.seekg(0);
 ```
 Note:  if you had already read all the way to the end of file, you will nead to call `clear` before you can `seekg`.
+
+### Passing Streams
+One group of parameter types that need to be treated specialy is the stream classes. Whether you are talking about the standard streams (i.e. `cin`, `cout` and `cerr`) or you are talking about a file stream, the all must be passed-by-reference.
+
+Why? The point is we never want to make a copy of a stream. We don't want to have two different stream "objects" referring to a single real underlying stream. A stream has a number of attributes that describe the stream's current status. For example, is it still ok to read from? What is the next position in the stream that we will read from or write to? Every time you use a stream, those attributes can change. But if we have to different stream objects referring to the same underlying stream then they can end up disagreeing with each other. And that's not good.
+
+To prevent such confusion, we always pass streams by reference. That way even when we have passed a stream to a function, the parameter name in the function is really referring to the same stream object as the calling function was using.
+
+Oh, and you will find that you don't have any choice in this area. If you try to pass a stream by value, or try to make a copy of a stream in any other way, your program will not compile. The folks who wrote the stream classes made sure of that. Later on, when we discuss copy control, we will see how they did it.
+
+What about making your stream a const parameter? Not likely to be a good idea. After all, think about what a stream object holds. Among other things, it has flags as to whether it is still readable or if we have hit the end of the file. And it has some sort of position marker that keeps track of where the next read will come from or where the next write will go to. All these things need to be free to be modified when we use the stream, so passing a stream by constant reference is not good.

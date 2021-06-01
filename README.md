@@ -82,6 +82,7 @@ ___
           <li><a href="./Basic%20C%2B%2B/Strings.md">Strings</a></li>
           <li><a href="./Basic%20C%2B%2B/Structs/Structs.md">Structs</a></li>
           <li><a href="./Basic%20C%2B%2B/Functions/Functions.md">Functions / parameters passing</a></li>
+          <li><a href="./Basic%20C%2B%2B/Functions/Good%20Programming.md">Good Programming</a></li>
         </ul>
       </td>
       <td>
@@ -143,7 +144,7 @@ ___
     <tr>
       <td>
         <a href="./Classes/Copy%20Control.md">Copy Control </a><br>
-        <a href="./Classes/Implementing%20the%20Vector.md">Implementing the Vector</a>
+        <a href="./Basic%20C%2B%2B/Vectors/Implementing%20the%20Vector.md">Implementing the Vector</a>
       </td>
       <td>
         <ul>

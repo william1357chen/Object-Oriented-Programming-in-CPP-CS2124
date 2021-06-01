@@ -164,5 +164,20 @@ void displayString(const string& aString) {  // The right way to do it!
 }
 ```
 
-### Passing Streams as Parameters
-One group of parameter types that need to be treated specialy is the stream classes. Whether you are talking about the standard streams (i.e. cin, cout and cerr) or you are talking about a file stream, the all must be passed by reference. If you try to pass a stream by value, or try to make a copy of a stream in any other way, your program will not compile.
+### Overloading Functions
+C++ allows you to write two different functions that have the same name. This is known as **function overloading**. The requirement is that the functions have different parameter lists. They can differ either in the number of parameters or in their types.
+
+So, if we wanted to write a couple of [fairly useless] functions, one to display an int and another to display a string, we could either give them different names, as in:
+```c++
+void displayInt(int n) { cout << n << endl; }
+void displayString(const string& s) { cout << s << endl; }
+```
+
+or we could just pick one function name for both:
+```c++
+void display(int n) { cout << n << endl; }
+void display(const string& s) { cout << s << endl; }
+```
+Many languages support this feature nowadays. But some widely used languages, such as C, do not.
+
+Note that in the programming literature there are those who argue against overloading functions, claiming that it can make the code more difficult to read. You should make sure that the overloaded functions mean the same thing to avoid confusion.
