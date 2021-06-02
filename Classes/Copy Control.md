@@ -146,4 +146,3 @@ SimpleClass& operator= (const SimpleClass& rhs) { // rhs means right hand side
     return *this;
 }
 ```
-## Update Inheritance in Copy Control after finish Inheritance
