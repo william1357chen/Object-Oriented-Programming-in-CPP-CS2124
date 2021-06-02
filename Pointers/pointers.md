@@ -257,12 +257,19 @@ void foo() {
 ```
 Doesn't matter how it happens, memory leaks can be a big problem for your program.
 
-## Add Pointer Arithmetic
+## Pointer Arithmetic
 
 ## Pointer Topics not yet discussed
-* pointer to pointer
-* copy control
-* pointer and arrays
-    * dynamic arrays
-    * pointer arithmetic
-
+* pointer to pointer / double pointer: (covered in lecture) 
+   * int* q;
+   * int **r = &q;
+* pointers to functions (won’t be cover that this semester).
+* pointers and arrays
+   * dynamic arrays (covered in [Implementing the Vector]())
+   * array indicing (covered in [pointer arithmetic]())
+   * pointer arithmetic (covered in [pointer arithmetic]())
+* Error: `*x/*y` 
+   * `/*` is used for multi-line comment 
+   * change statement to `(*x) / (*y)`
+* `shared_ptr`
+   * a smart pointer that retains shared ownership of an object through a pointer.

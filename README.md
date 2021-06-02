@@ -143,7 +143,8 @@ ___
     </tr>
     <tr>
       <td>
-        <a href="./Classes/Copy%20Control.md">Copy Control </a><br>
+        <a href="./Classes/Copy%20Control.md">Copy Control </a>
+        <br>
         <a href="./Basic%20C%2B%2B/Vectors/Implementing%20the%20Vector.md">Implementing the Vector</a>
       </td>
       <td>
@@ -300,16 +301,16 @@ ___
 <table align="center" width="100%" cellspacing="0" cellpadding="3" border="1">
   <tbody>
     <tr>
-      <td width="100">
+      <td width="200">
         <a href="./recitations/rec01/rec01.md">rec01: C++ Basics</a>
       </td>
-      <td width="100">
+      <td width="200">
         <a href="./recitations/rec02/rec02.md">rec02: Structs, Vectors, and Functions</a>
       </td>
-      <td width="100">
+      <td width="200">
         <a href="./recitations/rec03/rec03.md">rec03: Encapsulation</a>
       </td>
-      <td width="100">
+      <td width="200">
         <a href="./recitations/rec04/rec04.md">rec04: Intro to Pointers</a>
       </td>
     </tr>
