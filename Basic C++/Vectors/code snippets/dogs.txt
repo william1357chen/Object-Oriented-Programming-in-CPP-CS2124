@@ -1,0 +1,3 @@
+ben 3 terrier
+chris 2 shepherd
+aslan 5 shepherd

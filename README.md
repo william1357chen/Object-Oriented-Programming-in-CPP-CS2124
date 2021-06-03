@@ -60,7 +60,7 @@ ___
       <td align="center">
         <strong>Key Subtopics<br></strong>
       </td>
-      <td align="center"><strong>SampleCode</strong>
+      <td align="center"><strong>Sample Code</strong>
       </td>
     </tr>
     <tr>
@@ -130,7 +130,7 @@ ___
           <li><a href="./Pointers/pointers.md#basics-of-address-and-pointer-variables">address/location</a></li>
           <li><a href="./Pointers/pointers.md#basics-of-address-and-pointer-variables">pointer variables</a></li>
           <li><a href="./Pointers/pointers.md#pointers-and-objects">pointers and objects</a></li>
-          <li>pointer arithmetic</li>
+          <li><a href="./Pointers/pointer%20arithmetic.md">pointer arithmetic</li></a></li>
           <li><a href="./Pointers/pointers.md#dynamic-memory-the-heap">Dynamic Memory / Heap</a></li>
           <li><a href="./Pointers/pointers.md#dynamic-memory-the-heap">new/delete</a></li>
         </ul>
@@ -190,7 +190,7 @@ ___
     </tr>
     <tr>
       <td>
-        <a href="./Operator%20Overloading/Operator%20Overloading.md">Operator overloading</a>
+        <a href="./Classes/Operator%20Overloading.md">Operator overloading</a>
       </td>
       <td>
         <ul>
@@ -212,7 +212,7 @@ ___
     <tr>
       <td>
         <p>
-          <a href="./Classes/Inheritance.md">Inheritance</a>
+          <a href="./Classes/Inheritance/Inheritance.md">Inheritance</a>
         </p>
       </td>
       <td>
