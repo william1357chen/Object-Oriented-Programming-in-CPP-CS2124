@@ -1,3 +1,9 @@
+/*
+    William's Notes
+
+	Demonstrate how to create an "association"
+	between two classes objects using pointers.
+*/
 
 #include <iostream>
 #include <string>

@@ -1,3 +1,9 @@
+/*
+	Example of simplest class. 
+	John Sterling
+	CS1124
+	Polytechnic University
+*/
 
 #include <string>
 #include <iostream>

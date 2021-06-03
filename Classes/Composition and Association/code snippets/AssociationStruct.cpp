@@ -1,5 +1,4 @@
 /*
-	testAssociationStruct.cpp
 	John Sterling
 
 	Demonstrate how to create an "association"
