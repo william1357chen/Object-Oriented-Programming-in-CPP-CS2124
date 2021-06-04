@@ -1,4 +1,13 @@
 # Pointers 
+## Topics
+* Basics of Addresses and Pointer Variables
+* Pointers and objects
+* this
+* Pointers and const
+* Dynamic Memory
+* Filling a Vector of Pointers to Objects
+* Dangers of using Pointers
+* More topics to discuss
 
 ## Basics of Address and Pointer Variables
 
@@ -196,7 +205,7 @@ delete ptr;
 Why? Because the `delete` operator is coded to simply neglect a pointer that is a `nullptr`. 
 
 ## Filling a Vector of Pointers, Putting the Objects on the Heap
-Earlier we talked about [how to fill a vector of objects from a file](), when using encapsulation.
+Earlier we talked about [how to fill a vector of objects from a file](../Classes/Class%20Basics/Class%20Basics.md#vector-of-objects), when using encapsulation.
 
 Now we should do the same thing with a vector of pointers. The question is if we are using pointers, what will we point at? If we are reading the information from a file, then there aren't any objects yet to point to. Let's consider one possibility (a wrong way of doing it). We will base it on the Person class above.
 ```c++
@@ -265,9 +274,9 @@ Doesn't matter how it happens, memory leaks can be a big problem for your progra
    * int **r = &q;
 * pointers to functions (won’t be cover that this semester).
 * pointers and arrays
-   * dynamic arrays (covered in [Implementing the Vector]())
-   * array indicing (covered in [pointer arithmetic]())
-   * pointer arithmetic (covered in [pointer arithmetic]())
+   * dynamic arrays (covered in [NewDelete.cpp](./code%20snippets/NewDelete.cpp))
+   * array indicing (covered in [pointer arithmetic](./pointer%20arithmetic.md))
+   * pointer arithmetic (covered in [pointer arithmetic](./pointer%20arithmetic.md))
 * Error: `*x/*y` 
    * `/*` is used for multi-line comment 
    * change statement to `(*x) / (*y)`

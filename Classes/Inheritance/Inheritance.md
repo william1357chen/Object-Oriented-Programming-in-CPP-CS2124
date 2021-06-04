@@ -1,13 +1,15 @@
 # Inheritance
+
+## Topics
 * Idea of Inheritance
 * Representing Inheritance in Code
 * Inheriting Methods
 * Overriding Methods
 * Constructors
-* What can be assigned to what?
-* Polymorphism
+* Assigning `Derived` objects to variable with type `Base`
+* Polymorphism (Virtual Methods)
 * Protected
-* Calling a Base Class Method
+* Calling a Overridden Base Class Method with a `Derived` Object
 * Function Overloading with Inheritance
 * Abstract Classes
 * Multiple Inheritance
@@ -67,7 +69,7 @@ Animal eating
 Note that we did not put anything at all in the `Bear` class, just in the `Animal` class, but we still have the ability to call the eat method for a bear. This is known as **code reuse**.
 
 ## Overriding
-What if we don't like what we have inherited? In our example, what if a tiger wants to eat in a different way than other animals. Simple! In the `Tiger` class, we just override the definition of the eat method. I will just show the `Tiger` class and the revised main, but [The complete program is here]().
+What if we don't like what we have inherited? In our example, what if a tiger wants to eat in a different way than other animals. Simple! In the `Tiger` class, we just override the definition of the eat method. I will just show the `Tiger` class and the revised main, but [The complete program is here](./code%20snippets/code%20in%20notes/Animals-02.cpp).
 ```c++
 class Tiger : public Animal {
 public:
@@ -91,7 +93,7 @@ Tiger eating
 Fields are also inherited. However, even though our parent class may have a field, we still have to respect access permissions. If the field is private in the base class, the derived class can only access it through methods provided by the base class.
 
 ## Constructors
-Let's add a name field to the base class. Naturally if we add a field, we need a constructor to initialize it. And, the animals that we have created so far will need to be provided with names. The revised Animal class and main are below. [The complete program is here]().
+Let's add a name field to the base class. Naturally if we add a field, we need a constructor to initialize it. And, the animals that we have created so far will need to be provided with names. The revised Animal class and main are below. [The complete program is here](./code%20snippets/code%20in%20notes/Animals-03.cpp).
 ```c++
 // Attempt at adding a name to all Animals and initializing it using a constructor in Animal.
 class Animal {
@@ -129,7 +131,7 @@ public:
     Tiger(const string& name) : Animal(name) {} // Right!
 };
 ```
-Finally we have an approach that works! [The complete program is here]().
+Finally we have an approach that works! [The complete program is here](./code%20snippets/code%20in%20notes/Animals-04.cpp).
 
 It's important to be aware that a derived class's constructor is *always* calling a base class constructor, even if we don't specify one in the derived constructor's initialization list. So what constructor is being called if we don't specify one? Pretty obviously, it has to be the default constructor. If you tried our first failed attempts at initializing the field, you might have noticed a compiler error that complained that the Animal class didn't have a constructor that took no arguments. Of course we know Animal doesn't have one. We just didn't know that the derived constructor was trying to call it. But that's what happens if we don't explicitly say which base constructor to use.
 
@@ -232,7 +234,7 @@ Terminology:
 
 Constructors:
 
-* Note that in C++ the virtual mechanism *does not work* inside constructors. Specifically, if the Base constructor calls a virtual method that is redefined in the Derived class, it is the version in the Base class that will be used.  Why do this? The reasoning is simple: during initialization of the Base object, the Derived object has not yet been initialized, so it is probably a bad idea to call any of its functions. Here is the program that demostrates this concept. [The complete program]()
+* Note that in C++ the virtual mechanism *does not work* inside constructors. Specifically, if the Base constructor calls a virtual method that is redefined in the Derived class, it is the version in the Base class that will be used.  Why do this? The reasoning is simple: during initialization of the Base object, the Derived object has not yet been initialized, so it is probably a bad idea to call any of its functions. Here is the program that demostrates this concept. [The complete program](./code%20snippets/code%20in%20notes/NoPolymorphismFromBaseConstructor.cpp).
 
 Conclusion:
 
@@ -305,7 +307,7 @@ public:
     int getDerivedTwoValue(const DerivedTwo& der2) { return der2.getValue(); }
 };
 ```
-So, what happens? One method fails to compile and the other is fine. Why? We have permission to call the protected `getValue` method on a `DerivedTwo` object, even if that object is not us, so the definition for `getDerivedTwoValue` compiles fine. But within `DerivedTwo`, we do not have permission to call that same protected method on a Derived object, so the defintion of `getDerivedValue` fails to compile. ([The complete program.]())
+So, what happens? One method fails to compile and the other is fine. Why? We have permission to call the protected `getValue` method on a `DerivedTwo` object, even if that object is not us, so the definition for `getDerivedTwoValue` compiles fine. But within `DerivedTwo`, we do not have permission to call that same protected method on a Derived object, so the defintion of `getDerivedValue` fails to compile. [The complete program](./code%20snippets/code%20in%20notes/protected4.cpp).
 
 ## Calling a Overridden Base Class Method with a `Derived` Object
 Earlier, we saw how in the class `Tiger`, we could override the eat method from Animal, so that when we called eat on `tigger`, he used the Tiger version rather than the Animal version.
@@ -331,7 +333,7 @@ public:
     }
 };
 ```
-[Complete program.]()
+[Complete program.](./code%20snippets/code%20in%20notes/Animals-05.cpp)
 
 ## Function Overloading with Inheritance
 People are often surprised as to how function overloading and inheritance interact. The rule is: the compiler will pick the most specific overload, based on the *compile-time* type of the arguments.
@@ -413,8 +415,8 @@ public:
     * If Student and Employee both inherit from Person how do we deal with ambiguities?
 
 ### Other stuff that is discussed later
-* Copy control and Inheritance
-    * Destructors  [Discussed with copy control]]
+* [Copy control and Inheritance](./Inheritance%20in%20Copy%20Control.md)
+    * Destructors
         * Automatically call their parent class’s destructor just before they finish.
         * If we `delete` an item pointed to by a Base class pointer then the destructor for the Derived class will be invoked *only* if the Base class destructor is `virtual`.
             * Destructors should be declared virtual if a class is ever expected to be used as a base class.

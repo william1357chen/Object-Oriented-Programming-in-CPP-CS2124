@@ -1,12 +1,11 @@
 # Copy Control / Big 3
-Topics
-Concept
-Destructor
-Copy Constructor
-Assignment Operator
-Inheritance
-## Concept
+## Topics
+* Concept
+* Destructor
+* Copy Constructor
+* Assignment Operator
 
+## Concept
 ### What are the "Big 3"?
 The Big 3 refers to the **destructor**, the **assignment operator** and the **copy constructor**.
 

@@ -1,4 +1,15 @@
 # Class Basics
+
+## Topics
+* Writing a minimal class
+* The public interface
+* Private members
+* Constructors
+* Const methods
+* Vector of Objects
+* Objects within Objects (Composition)
+
+
 We will talk about the basics of creating and using a class. Classes are the core of Object-Oriented Programming and why you will hear people say C++ is a Object Oriented Language and C isn't one. 
 ## Writing a Minimal Class
 
@@ -192,7 +203,7 @@ What did we change in the definition of `Person`? In the definition for `display
 Whenever you write a method that should not change the values of any member variables inside the current object, you should mark the method `const` as we did with display. Note that we often refer to such a method as a **const method**.
 
 ## Vector of Objects
-Earlier we talked about how to fill a [vector of struct objects](../Basic%20C++/Structs/Structs.md) from a stream. In that case, we were not using *encapsulation* and had not made the `date` private. Suppose we want to fill a vector of class objects, how will the code change? What will have to change? In that case, we were not using encapsulation and had not made the date private. Suppose we want to fill a vector of class objects, how will the code change? What will have to change?
+Earlier we talked about how to fill a [vector of struct objects](../../Basic%20C++/Structs/Structs.md) from a stream. In that case, we were not using *encapsulation* and had not made the `date` private. Suppose we want to fill a vector of class objects, how will the code change? What will have to change? In that case, we were not using encapsulation and had not made the date private. Suppose we want to fill a vector of class objects, how will the code change? What will have to change?
 
 First, let's look at that code again. (Sorry that I used a different class there than we've been using in this set of notes.)
 ```c++
@@ -241,8 +252,8 @@ void displayCatVector (const vector<Cat>& vc) {  // Remember the const
 }
 ```
 
-## Objects within Objects
-Many of our examples show objects inside of other objects. You probably haven't noticed them. The `Person` class, for example, has a string object inside it holding its name. You might not have thought about if because for one thing, we weren't the one that defined that class. So, let's create another class, a Date class, to use with our Persons.
+## Objects within Objects (Composition)
+Many of our examples show objects inside of other objects. This is called **composition**. You probably haven't noticed them. The `Person` class, for example, has a string object inside it holding its name. You might not have thought about if because for one thing, we weren't the one that defined that class. So, let's create another class, a Date class, to use with our Persons.
 
 Our Date objects will be created by passing in integers representing the month, day and year. So, we might want to create a Date as:
 ```c++
@@ -273,4 +284,4 @@ Note how the field bday was initialized. See that it took three arguments. Well 
 
 One thing to observe there. The Date class had to be defined first, otherwise the `Person` class would not have compiled. After all, otherwise how would the compiler know when looking at the `Person` class that a Date class actually exists, let alone that it has the appropriate constructor and display method.
 
-Complete Program Here: [Person and Date Class](./code%20snippets/classes_person_date.cpp)
+Complete Program Here: [Person and Date Class](./code%20snippets/Person.cpp)

@@ -46,12 +46,20 @@
 * Overloading Operators: [Date.h](Classes/Operator%20Overloading/code%20snippets/dateWithOverload.h), [Date.cpp](Classes/Operator%20Overloading/code%20snippets/dateWithOverload.cpp) and [testDate.cpp](Classes/Operator%20Overloading/code%20snippets/testDateWithOverload.cpp).
 * Overloading arithmetic operators: [Complex.h](Classes/Operator%20Overloading/code%20snippets/complexWithOverload.h), [Complex.cpp](Classes/Operator%20Overloading/code%20snippets/complexWithOverload.cpp) and [testComplex.cpp](Classes/Operator%20Overloading/code%20snippets/testComplexWithOverload.cpp)
 
-## Inheritance 
+## Inheritance
+* Sample Code in Notes
+    * [Animal-02.cpp](Classes/Inheritance/code%20snippets/code%20in%20notes/Animals-02.cpp)
+    * [Animal-03.cpp](Classes/Inheritance/code%20snippets/code%20in%20notes/Animals-03.cpp)
+    * [Animal-04.cpp](Classes/Inheritance/code%20snippets/code%20in%20notes/Animals-04.cpp)
+    * [NoPolymorphismFromBaseConstructor.cpp](Classes/Inheritance/code%20snippets/code%20in%20notes/NoPolymorphismFromBaseConstructor.cpp)
+    * [protected4.cpp](Classes/Inheritance/code%20snippets/code%20in%20notes/protected4.cpp)
+    * [Animal-05.cpp](Classes/Inheritance/code%20snippets/code%20in%20notes/Animals-05.cpp)
+
 * [Basic Inheritance](Classes/Inheritance/code%20snippets/Inheritance.cpp)
 * [Polymorphism](Classes/Inheritance/code%20snippets/Polymorphism.cpp)
 * [Abstract Classes](Classes/Inheritance/code%20snippets/abstractClasses.cpp)
 * [Multiple Inheritance](Classes/Inheritance/code%20snippets/multipleInheritance.cpp)
-* * [Inheritance mixed with Copy Control](./Classes/Copy%20Control/code%20snippets/inheritanceInCopyControl.cpp)
+* [Inheritance mixed with Copy Control](./Classes/Inheritance/code%20snippets/inheritanceInCopyControl.cpp)
 
 ## Linked Lists
 * [A simple linked list toolkit](Linked%20Lists/code%20snippets/LinkedList.cpp) with functions for displaying, adding and removing items, and finding the length of the list.
