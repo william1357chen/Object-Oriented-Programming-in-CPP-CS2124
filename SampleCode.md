@@ -8,8 +8,8 @@
     * [Parameters Passing](./Basic%20C%2B%2B/Functions/code%20snippets/parameterPassing.cpp)
     * [Default Parameters](./Basic%20C%2B%2B/Functions/code%20snippets/defaultParameters.cpp)
 * Structs
-    * [Struct Basics](Basic%20C%2B%2B/Structs/code%20snippets/structs1.cpp)
-    * [Demonstrating the need for const methods](Basic%20C%2B%2B/Structs/code%20snippets/structs2.cpp
+    * [Struct Basics](Basic%20C%2B%2B/Structs/code%20snippets/struct1.cpp)
+    * [Demonstrating the need for const methods](Basic%20C%2B%2B/Structs/code%20snippets/struct2.cpp)
 * Vectors
     * [Reading a file into a vector](./Basic%20C%2B%2B/Vectors/code%20snippets/vectorBasics.cpp)
     * [Reading a file into a vector of class objects.](Basic%20C%2B%2B/Vectors/code%20snippets/vectorOfClass.cpp) How do you fill a vector of objects?

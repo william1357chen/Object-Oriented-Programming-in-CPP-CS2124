@@ -145,3 +145,6 @@ SimpleClass& operator= (const SimpleClass& rhs) { // rhs means right hand side
     return *this;
 }
 ```
+
+## Additional Discussion
+* [How does Copy Control work with Inheritance?](../Inheritance/Inheritance%20in%20Copy%20Control.md)
