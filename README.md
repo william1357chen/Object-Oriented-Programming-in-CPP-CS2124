@@ -435,3 +435,8 @@ ___
   </tbody>
 </table>
 </html>
+
+___
+
+## Contribute to this repository
+It is strongly encouraged for anyone to contribute to this repository. Contributions such as finding typos, dead links, code errors, etc, will be extremly helpful. Please submit pull requests or email wlc308@nyu.edu if you are interested in helping out. Thank you. 
