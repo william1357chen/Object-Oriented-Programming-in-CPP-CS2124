@@ -139,7 +139,7 @@ So, bottom line is you need to be aware that:
 * The only things that can appear in the initialization section are base classes and member variables declared in *this* class. Not member variables declared in a base class, regardless of whether they were declared public, protected or private.
 * The programmer can specify **in the initialization list** which base class constructor to use.  If unspecified then the default constructor will be used (except as noted below for the copy constructor).  Note that a compilation error will result if the specified Base class constructor is not available.
 
-## What we can assign to what
+## Assigning `Derived` objects to variable with type `Base`
 Suppose you have a Derived object and you try to assign (or copy) it to a Base object. I.e.:
 ```c++
 int main() {
@@ -178,7 +178,7 @@ So what can we assigned where...
 * Address of derived object (e.g., value of a derived pointer) to a base pointer? Fine.
 * Address of base object (e.g., value of a base pointer) to a derived pointer? No, illegal. Results in compilation error.
 
-## Polymorphism
+## Polymorphism (Virtual Methods)
 If polymorphism is the answer, what was the question?
 * Suppose we have a menagerie (or other collection) of animals and it is feeding time. We want all of those animals to eat. But they don't all eat in the same way and it is important that the gerbils don't start eating like lions.
 * Polymorphism will be part of the solution, but how will we represent the collection? A first stab might be:
@@ -307,7 +307,7 @@ public:
 ```
 So, what happens? One method fails to compile and the other is fine. Why? We have permission to call the protected `getValue` method on a `DerivedTwo` object, even if that object is not us, so the definition for `getDerivedTwoValue` compiles fine. But within `DerivedTwo`, we do not have permission to call that same protected method on a Derived object, so the defintion of `getDerivedValue` fails to compile. ([The complete program.]())
 
-## Calling a Base Class Method
+## Calling a Overridden Base Class Method with a `Derived` Object
 Earlier, we saw how in the class `Tiger`, we could override the eat method from Animal, so that when we called eat on `tigger`, he used the Tiger version rather than the Animal version.
 
 Great. But what if once in a while, `tigger` would like to eat the way his parent class taught him to. What if he wants to eat like any old Animal and not specifically like a Tiger? He still can!
@@ -333,7 +333,7 @@ public:
 ```
 [Complete program.]()
 
-## Function Overloading
+## Function Overloading with Inheritance
 People are often surprised as to how function overloading and inheritance interact. The rule is: the compiler will pick the most specific overload, based on the *compile-time* type of the arguments.
 
 What does that mean? Suppose we have an inheritance hierarchy of three classes:

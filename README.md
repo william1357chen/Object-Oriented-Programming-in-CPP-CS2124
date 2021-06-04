@@ -60,7 +60,7 @@ ___
       <td align="center">
         <strong>Key Subtopics<br></strong>
       </td>
-      <td align="center"><strong>Sample Code</strong>
+      <td align="center"><strong><a href="./SampleCode.md">Sample Code</a></strong>
       </td>
     </tr>
     <tr>
@@ -78,41 +78,42 @@ ___
           <li><a href="./Basic%20C++/Basic%20Syntax.md#loops">Loops</a></li>
           <li><a href="./Basic%20C++/Basic%20Syntax.md#conditions">Conditions</a></li>
           <li><a href="./Basic%20C%2B%2B/File%20IO/File%20IO.md">File I/O</a></li>
+          <li><a href="./Basic%20C%2B%2B/Functions/Functions.md">Functions / parameters passing</a></li>
           <li><a href="./Basic%20C%2B%2B/Vectors/Vectors.md">Vectors</a></li>
           <li><a href="./Basic%20C%2B%2B/Strings.md">Strings</a></li>
           <li><a href="./Basic%20C%2B%2B/Structs/Structs.md">Structs</a></li>
-          <li><a href="./Basic%20C%2B%2B/Functions/Functions.md">Functions / parameters passing</a></li>
-          <li><a href="./Basic%20C%2B%2B/Functions/Good%20Programming.md">Good Programming</a></li>
+          <li><a href="./Basic%20C%2B%2B/Good%20Programming.md">Good Programming</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Reading in a file</li>
-          <li>How <em>NOT</em> to read a file</li>
-          <li>Reading a file into a vector</li>
-          <li>Vector of objects that contain vectors </li>
+          <li><a href="SampleCode.md#basics-of-c">Reading in a file</a></li>
+          <li><a href="SampleCode.md#basics-of-c">How <em>NOT</em> to read a file</a></li>
+          <li><a href="SampleCode.md#basics-of-c">Parameters Passing</a></li>
+          <li><a href="SampleCode.md#basics-of-c">Default Parameters</a></li>
+          <li><a href="SampleCode.md#basics-of-c">Reading a file into a vector</a></li>
+          <li><a href="SampleCode.md#basics-of-c">Vector of objects that contain vectors</a></li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="./Classes/Class%20Basics.md">Classes</a>
+        <a href="./Classes/Class%20Basics/Class%20Basics.md">Classes</a>
       </td>
       <td>
         <ul>
           <li><a
-              href="./Classes/Class%20Basics.md#providing-a-public-interface-member-methods-to-make-a-class-interactive">Member
+              href="./Classes/Class%20Basics/Class%20Basics.md#providing-a-public-interface-member-methods-to-make-a-class-interactive">Member
               variables and functions</a></li>
-          <li><a href="./Classes/Class%20Basics.md#constructors">Constructors</a></li>
-          <li><a href="./Classes/Class%20Basics.md#const-methods">Const functions</a></li>
-          <li><a href="./Classes/Class%20Basics.md#vector-of-objects">Vector of Objects</a></li>
+          <li><a href="./Classes/Class%20Basics/Class%20Basics.md#constructors">Constructors</a></li>
+          <li><a href="./Classes/Class%20Basics/Class%20Basics.md#const-methods">Const functions</a></li>
+          <li><a href="./Classes/Class%20Basics/Class%20Basics.md#vector-of-objects">Vector of Objects</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>A simple Date Class</li>
-          <li>Composition and association</li>
-          <li>Dynamic array of pointers to objects.</li>
+          <li><a href="SampleCode.md#classes">A simple Date Class</a></li>
+          <li><a href="SampleCode.md#classes">A simple Person Class</a></li>
         </ul>
       </td>
     </tr>
@@ -122,7 +123,7 @@ ___
           <a href="./Pointers/pointers.md">Pointers</a>
         </p>
         <p>
-          <a href="./Classes/Composition%20and%20Association.md">Composition and Association</a>
+          <a href="./Classes/Composition%20and%20Association/Composition%20and%20Association.md">Composition and Association</a>
         </p>
       </td>
       <td>
@@ -137,27 +138,35 @@ ___
       </td>
       <td>
         <ul>
-          <li>Intro to addresses and pointers</li>
+          <li><a href="SampleCode.md#pointers">Intro to addresses and pointers</a></li>
+          <li><a href="SampleCode.md#pointers">Dynamic arrays on the Heap</a></li>
+          <li><a href="SampleCode.md#pointers">Expanding dynamic array</a></li>
+          <li><a href="SampleCode.md#pointers">Dynamic array of pointers to objects</a></li>
+          <li><a href="SampleCode.md#composition-and-association">Composition and Association</a></li>
+          <li><a href="SampleCode.md#composition-and-association">Association - spouse pointers</a></li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="./Classes/Copy%20Control.md">Copy Control </a>
-        <br>
-        <a href="./Basic%20C%2B%2B/Vectors/Implementing%20the%20Vector.md">Implementing the Vector</a>
+        <p>
+          <a href="Classes/Copy%20Control/Copy%20Control.md">Copy Control </a>
+        </p>
+        <p>
+          <a href="./Basic%20C%2B%2B/Vectors/Implementing%20the%20Vector.md">Implementing the Vector</a>
+        </p>
       </td>
       <td>
         <ul>
-          <li><a href="./Classes/Copy%20Control.md#destructor">Destructor</a></li>
-          <li><a href="./Classes/Copy%20Control.md#copy-constructor">Copy Constructor</a></li>
-          <li><a href="./Classes/Copy%20Control.md#assignment-operator">Assignment Operator</a></li>
+          <li><a href="Classes/Copy%20Control/Copy%20Control.md#destructor">Destructor</a></li>
+          <li><a href="Classes/Copy%20Control/Copy%20Control.md#copy-constructor">Copy Constructor</a></li>
+          <li><a href="Classes/Copy%20Control/Copy%20Control.md#assignment-operator">Assignment Operator</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Need for copy constructor.</li>
-          <li>Vector class.</li>
+          <li><a href="SampleCode.md#copy-control-and-the-big-3">Copy Control Basics</a></li>
+          <li><a href="SampleCode.md#copy-control-and-the-big-3">Demonstrating Copy Control using a Vector Class</a></li>
         </ul>
       </td>
     </tr>
@@ -178,34 +187,36 @@ ___
       </td>
       <td>
         <ul>
-          <li>header files and implementation files.</li>
-          <li>include guard: #ifndef, #define and, #endif</li>
+          <li><a href="Separate%20Compilation/Separate%20Compilation.md">header files and implementation files</a></li>
+          <li><a href="Separate%20Compilation/Namespaces.md">why we use namespaces</a></li>
+          <li><a href="Separate%20Compilation/Include%20Guards.md">include guard: #ifndef, #define and, #endif</a></li>
+          <li><a href="Separate%20Compilation/Cyclic%20Association.md">forward declaration</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>The class Date using separate compilation and a namespace.</li>
+          <li><a href="SampleCode.md#separate-compilation--namespaces">The class Date using separate compilation and a namespace</a></li>
         </ul>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="./Classes/Operator%20Overloading.md">Operator overloading</a>
+        <a href="Classes/Operator%20Overloading/Operator%20Overloading.md">Operator overloading</a>
       </td>
       <td>
         <ul>
-          <li>Why?</li>
-          <li>Operator expressions as function calls.</li>
-          <li> I/O operators</li>
-          <li>Comparison operators.</li>
-          <li>Friends</li>
-          <li>What you can / can't do with operator overloading. <br>
-          </li>
+          <li><a href="Classes/Operator%20Overloading/Operator%20Overloading.md#what-does-overloading-operators-mean">What you can / can't do with operator overloading</a></li>
+          <li><a href="Classes/Operator%20Overloading/Operator%20Overloading.md#operator-expressions-as-function-calls">Operator expressions as function calls</a></li>
+          <li><a href="Classes/Operator%20Overloading/Operator%20Overloading.md#types-of-operators">Types of operators</a></li>
+          <li><a href="Classes/Operator%20Overloading/Operator%20Overloading.md#member-or-non-member">Member of non-member</a></li>
+          <li><a href="Classes/Operator%20Overloading/Operator%20Overloading.md#friend">Friends</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Overloading operators for the Date class</li>
+          <li><a href="SampleCode.md#operator-overlaoding">Overloading operators for the Date class</a></li>
+          <li><a href="SampleCode.md#operator-overlaoding">Overloading arithmetic operators</a></li>
+          <li><a href="SampleCode.md#operator-overlaoding">Overloading square brackets operator for the Vector class</a></li>
         </ul>
       </td>
     </tr>
@@ -217,20 +228,22 @@ ___
       </td>
       <td>
         <ul>
-          <li>Simple public inheritance. </li>
-          <li>Protected access. </li>
-          <li>Polymorphism. </li>
-          <li>Virtual mechanism and virtual methods. </li>
-          <li>Pure virtual methods and abstract classes.</li>
-          <li>Multiple Inheritance</li>
+          <li><a href="Classes/Inheritance/Inheritance.md#representing-inheritance-in-code">Simple public inheritance</a></li>
+          <li><a href="Classes/Inheritance/Inheritance.md#overriding">Polymorphism</a></li>
+          <li><a href="Classes/Inheritance/Inheritance.md#polymorphism">Virtual mechanism and virtual methods</a></li>
+          <li><a href="Classes/Inheritance/Inheritance.md#protected">Protected access</a></li>
+          <li><a href="Classes/Inheritance/Inheritance.md#abstract-classes">Pure virtual methods and abstract classes</a></li>
+          <li><a href="Classes/Inheritance/Inheritance.md#multiple-inheritance">Multiple Inheritance</a></li>
+          <li><a href="Classes/Inheritance/Inheritance%20in%20Copy%20Control.md">Inheritance in Copy Control</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Basic inheritance</li>
-          <li>Order of constructors and destructors.</li>
-          <li>Polymorphism</li>
-          <li>Abstract Classes</li>
+          <li><a href="SampleCode.md#inheritance">Basic inheritance</a></li>
+          <li><a href="SampleCode.md#inheritance">Polymorphism</a></li>
+          <li><a href="SampleCode.md#inheritance">Abstract Classes</a></li>
+          <li><a href="SampleCode.md#inheritance">Multiple Inheritance</a></li>
+          <li><a href="SampleCode.md#copy-control-and-the-big-3">Inheritance in Copy Control</a></li>
         </ul>
       </td>
     </tr>
@@ -240,12 +253,13 @@ ___
       </td>
       <td>
         <ul>
-          <li>Implement a toolkit for a singly linked list.</li>
+          <li><a href="Linked%20Lists/Linked%20Lists.md#purpose">Purpose of a linked list</a></li>
+          <li><a href="Linked%20Lists/Linked%20Lists.md#implementation">Implement a toolkit for a singly linked list</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Linked List Toolkit</li>
+          <li><a href="SampleCode.md#linked-lists">Linked List Toolkit</a></li>
         </ul>
       </td>
     </tr>
@@ -255,15 +269,15 @@ ___
       </td>
       <td>
         <ul>
-          <li>Understanding recursive code</li>
-          <li>Writing recursive functions </li>
+          <li><a href="Recursion/Recursion.md">Understanding recursive code</a></li>
+          <li><a href="Recursion/Recursion.md">Writing recursive functions</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Simple examples</li>
-          <li>Binary Search</li>
-          <li>Linked List toolkit using recursion.</li>
+          <li><a href="SampleCode.md#recursion">Simple examples</a></li>
+          <li><a href="SampleCode.md#recursion">Binary Search</a></li>
+          <li><a href="SampleCode.md#recursion">Linked List toolkit using recursion</a></li>
         </ul>
       </td>
     </tr>
@@ -273,27 +287,50 @@ ___
       </td>
       <td>
         <ul>
-          <li>Containers (vector and <a href="https://cse.engineering.nyu.edu/jsterling/cs2124/LectureNotes/STLlist.html">list</a>)</li>
-          <li>Iterators</li>
-          <li>Generic algorithms</li>
+          <li><a href="STL/STL%20-%20Standard%20Template%20Library.md#containers">Containers</a> (vector and <a href="https://cse.engineering.nyu.edu/jsterling/cs2124/LectureNotes/STLlist.html">list</a>)</li>
+          <li><a href="STL/STL%20-%20Standard%20Template%20Library.md#iterators">Iterators</a></li>
+          <li><a href="STL/STL%20-%20Standard%20Template%20Library.md#generic-algorithms">Generic algorithms</a></li>
         </ul>
       </td>
       <td>
         <ul>
-          <li>Some examples using the STL vector and list.</li>
+          <li><a href="SampleCode.md#stl---standard-template-library">Some examples using the STL vector and list</a></li>
         </ul <td>
+    </tr>
+    <tr>
+      <td>
+        <a href="Template/Convert%20Vector%20Class%20to%20Template.md">Template</a>
+      </td>
+      <td>
+        <ul>
+          <li><a href="Template/Convert%20Vector%20Class%20to%20Template.md">How to convert a class to a template class</a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><a href="SampleCode.md#template">Converting the Vector Class to a Vector Template Class</a></li>
+        </ul>
+      </td>
     </tr>
     <tr>
       <td>
         <a href="./Exception/Exceptions%20and%20Assertions.md">Exceptions and Assertions</a>
       </td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
+      <td>
+        <ul>
+          <li><a href="Exception/Exceptions%20and%20Assertions.md#exception-handling-throw-try-catch">throw</a></li>
+          <li><a href="Exception/Exceptions%20and%20Assertions.md#exception-handling-throw-try-catch">try and catch</a></li>
+        </ul>
+      </td>
+      <td>
+        <ul>
+          <li><a href="SampleCode.md#exceptions-and-assertions">Exception examples</a></li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
 </html>
-
 ___
 
 ## Recitation Documents

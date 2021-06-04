@@ -6,7 +6,6 @@
 * Implementing operators in terms of other operators
 * Member or non-member?
 * Friends?
-* Conversion operators
 
 Overloading operators is a cool thing that most programming languages can't do. C++ can. And not only is it cool, but it can make your programs much easier to read. Of course, first you have to learn how. Well, first you have to learn what it means.
 
@@ -245,20 +244,6 @@ Elephant operator+ (const Elephant& lhs, const Elephant& rhs) {
    return temp += rhs; 
 }
 ```
-## Member or Non-member?
-How to decide whether to implement an operator as a member or a non-member function? The first question is, do we have a choice? The assignment and square bracket operators are *required* by C++ to be member functions. These are the only operators that C++ has rules forcing us to use member vs. non-member functions.
-
-* The input and output operators would be extremely difficult to implement as member functions because they would have to be members of the istream and ostream classes. We don't have easy access to the files. Furthermore those classes are *very* complicated and we would definitely not want to modify them (even if we had permission). We certainly wouldn't want other people modifying these important classes!
-* The "combination operators" are commonly implemented as members.
-* Other binary operators are usually implemented as non-members.
-* Unary operators are most often implemented as member functions.
-
-## Friend?
-If you are implementing a function as a non-member, you might like to make your operator a friend of the class. This reduces the need to use accessors and mutators, often making the code easier to read. On the other hand, every function that accesses (or mutates) member variables directly may have to be modified if the representation of the data changes. A function that is a non-member and not a friend will not need to be modified.
-
-* The input and output operators are often written as friends.
-* The binary arithmetic operators (`+ - * / %`) don't need to be friends as they are normally implemented using the corresponding compound operator (`+= -= *= /= %=`).
-* Two relational operators, typcially < and ==, would likely be implemented as friends, while the remaining four operators (!=, <=, > and >=) are easily implemented using the first two, so there is no reason to make them friends.
 
 ## Conversion Operators
 We now have almost enough technology to understand the magic of how
@@ -284,3 +269,19 @@ operator bool() const;
 First of all when I say convert, I don't mean that anything happened to the original stream in the process. The operator is just *returning* a bool, depending on whether the stream is still ok to read from. The stream itself has not *become* a bool.
 
 The name is "operator bool". There is no return type specified. If we did have to write one down it would just be bool, of course, and that would be nothing but an annoyance to have to type in. (Just one more typo to have to fix.) And of course this operator is const since generating a true / false from a stream should not change the stream object.
+
+## Member or Non-member?
+How to decide whether to implement an operator as a member or a non-member function? The first question is, do we have a choice? The assignment and square bracket operators are *required* by C++ to be member functions. These are the only operators that C++ has rules forcing us to use member vs. non-member functions.
+
+* The input and output operators would be extremely difficult to implement as member functions because they would have to be members of the istream and ostream classes. We don't have easy access to the files. Furthermore those classes are *very* complicated and we would definitely not want to modify them (even if we had permission). We certainly wouldn't want other people modifying these important classes!
+* The "combination operators" are commonly implemented as members.
+* Other binary operators are usually implemented as non-members.
+* Unary operators are most often implemented as member functions.
+
+## Friend?
+If you are implementing a function as a non-member, you might like to make your operator a friend of the class. This reduces the need to use accessors and mutators, often making the code easier to read. On the other hand, every function that accesses (or mutates) member variables directly may have to be modified if the representation of the data changes. A function that is a non-member and not a friend will not need to be modified.
+
+* The input and output operators are often written as friends.
+* The binary arithmetic operators (`+ - * / %`) don't need to be friends as they are normally implemented using the corresponding compound operator (`+= -= *= /= %=`).
+* Two relational operators, typcially < and ==, would likely be implemented as friends, while the remaining four operators (!=, <=, > and >=) are easily implemented using the first two, so there is no reason to make them friends.
+

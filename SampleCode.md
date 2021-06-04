@@ -35,7 +35,6 @@
 ## Copy Control and the Big 3
 * [Copy Control Basics](./Classes/Copy%20Control/code%20snippets/CopyControlBasics.cpp)
 * The big 3 using a vector class: [Vector.h](./Classes/Copy%20Control/code%20snippets/Vector.h), [Vector.cpp](./Classes/Copy%20Control/code%20snippets/Vector.cpp) and [testVector.cpp](Classes/Copy%20Control/code%20snippets/testVector.cpp)
-* [Inheritance mixed with Copy Control](./Classes/Copy%20Control/code%20snippets/inheritanceInCopyControl.cpp)
 
 ## Separate Compilation / Namespaces
 * A simple date class using separate compilation: [Date.h](./Separate%20Compilation/code%20snippets/Date.h), [Date.cpp](Separate%20Compilation/code%20snippets/Date.cpp) and [testDate.cpp](Separate%20Compilation/code%20snippets/testDate.h)
@@ -52,6 +51,7 @@
 * [Polymorphism](Classes/Inheritance/code%20snippets/Polymorphism.cpp)
 * [Abstract Classes](Classes/Inheritance/code%20snippets/abstractClasses.cpp)
 * [Multiple Inheritance](Classes/Inheritance/code%20snippets/multipleInheritance.cpp)
+* * [Inheritance mixed with Copy Control](./Classes/Copy%20Control/code%20snippets/inheritanceInCopyControl.cpp)
 
 ## Linked Lists
 * [A simple linked list toolkit](Linked%20Lists/code%20snippets/LinkedList.cpp) with functions for displaying, adding and removing items, and finding the length of the list.
@@ -59,14 +59,15 @@
 
 ## Recursion 
 * [Some recursive functions](Recursion/code%20snippets/Recursion.cpp)
+* [Binary Search](Recursion/code%20snippets/binserach.cpp)
 * [Some linked list toolkit functions using recursion](Recursion/code%20snippets/recursiveLinkedList.cpp)
 
 ## STL - Standard Template Library
-* [STL examples]
+* [STL examples](STL/code%snippets/STL.cpp)
 
 ## Templates
-* A template function: [maximum.h](Templates/code%20snippets/maximum.h)
-* Tempated vector class: [Vector.h](Templates/code%20snippets/Vector.h) and a test program [testVector.cpp](Templates/code%20snippets/testVector.cpp).
+* A template function: [maximum.h](Template/code%20snippets/maximum.h)
+* Templated vector class: [Vector.h](Template/code%20snippets/Vector.h) and a test program [testVector.cpp](Template/code%20snippets/testVector.cpp).
 
 ## Exceptions and Assertions 
 * [Exception examples](Exception/code%20snippets/Exception.cpp)
