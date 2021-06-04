@@ -1,5 +1,13 @@
 # Basic Syntax of C++
 
+## Topics
+* Main function
+* Variables
+* Primitive types
+* Conditions
+* Logical Operators
+* Loops
+
 ## The main function
 In C++, every program must have a function called main, which is the program called when we compile and run a C++ program. The main program has to return type `int`. 
 
@@ -57,7 +65,7 @@ int main() {
 Note:
 * `string name` did not define the content of name but did initilize the variable `name` for us to use in `cin >> name;`
 
-### Default Types
+### Default Types - Also known as *primitive* types
 * int: the most common type to represent integers. In most compilers this will be a 32-bit value 
 * double: used for "floating point" values, like 3.1415926535.
 * bool: can hold the values `true` and `false`.
