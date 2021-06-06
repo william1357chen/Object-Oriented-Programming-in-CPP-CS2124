@@ -1,7 +1,7 @@
 # Introduction to Object Oriented Prorgamming in C++
 Welcome! Here are the reorganized notes, recitation, and homework documents for Intro to Object Oriented Programming in C++ CS-2124 taught by Professor Sterling and Professor Callahan. I have reformatted the topics in a way that seems more organized from my experience of taking this course. Moreover, there are several additional topics provided to solidify your understanding of C++ and the concept of Object Oriented Programming.
 
-**Disclaimer: I do not claim the ownership of any materials posted here. The purpose of this repository is to improve the accessibility of lecture notes for CS2124 students.**
+**Disclaimer: I do not claim the ownership of any materials posted here. The purpose of this repository is to improve the accessibility of lecture notes for CS2124 students. Here is the [link](https://cse.engineering.nyu.edu/jsterling/cs2124/Notes/Syllabus.html) for the original notes from Professor Sterling**
 
 ## Storing the Notes in your Local Computer
 If you are interested in cloning this repository in your local computer:
